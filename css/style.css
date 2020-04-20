@@ -1,0 +1,117 @@
+/* RESET */
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+span {
+  font-size: 10px;
+  display: block;
+  margin-top: 40px;
+}
+.container {
+  margin:auto;
+  width: 1080px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  margin: 20px 0;
+}
+.text {
+  font-size: 12px;
+  color: #33475b;
+  margin: 40px 0;
+}
+
+/* HEADER */
+
+/* Nav Upper */
+header nav .upper {
+  background-color: #f4f9fd;
+  border-bottom: 2px solid lightgray;
+}
+header nav .col ul li a {
+  font-size: 12px;
+  color: #33475b;
+  text-decoration: none;
+  list-style: none;
+}
+header nav .left ul li,
+header nav .right ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header nav .left,
+header nav .right {
+  width: 50%;
+}
+header nav .left .language {
+  border-right: 1px solid #33475b;
+  padding-right: 15px;
+}
+header nav .right {
+  text-align: right;
+}
+
+header nav .right .search {
+  color: #2ab2c7;
+}
+header nav .right .button {
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+header nav .right .button-orange {
+  color: #ffffff;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  background-color: #fe775a;
+  padding: 10px 10px;
+}
+/*  Fine Nav Upper */
+
+/*  Nav Downer */
+header nav .downer {
+  background-color: #ffffff;
+
+}
+/*  Fine Nav Downer */
+/* Jumbotron */
+header .jumbotron {
+  background-image: url(../img/jumbotron.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-position: 44% 0;
+}
+header .teaser {
+  padding-top: 200px;
+  width: 500px;
+}
+header .teaser h1 {
+  color: #33475b;
+  font-size: 35px;
+}
+
+header .jumbotron .button-orange {
+  color: #ffffff;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  background-color: #fe775a;
+  padding: 15px 26px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Fine Jumbotron */
+/* FINE HEADER */
