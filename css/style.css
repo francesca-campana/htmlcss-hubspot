@@ -299,7 +299,6 @@ main .partnership .figure img {
 /* FOOTER */
 footer {
   background-color: #37495A;
-  height: 900px;
 }
 /* Inizio Footer-Nav */
 footer .footer-nav {
@@ -320,7 +319,7 @@ footer .footer-nav .col li {
   margin-bottom: 10px;
 
 }
-/* footer .footer-nav .nav ul */
+
 .col {
   list-style: none;
   position: relative;
@@ -345,13 +344,25 @@ footer .footer-nav .col li {
 }
 /* Fine Footer-Nav */
 /* Inizio Footer-Language */
-footer .footer-language li {
+footer .footer-language li ,
+footer .legal li {
   display: inline-block;
+  margin: 0 0 15px 35px;
+}
+footer .footer-language .language {
+  text-align: center;
+}
+footer .legal .col {
+  width: 50%;
+}
+footer .legal .legalnav {
+  text-align: right;
+}
+footer .legal {
+  padding:30px 0;
+}
 
-}
-hr {
-mar
-}
+
 
 /* Fine Footer-Language */
 /* FINE FOOTER */
