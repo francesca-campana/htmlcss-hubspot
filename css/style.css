@@ -49,6 +49,7 @@ span {
 }
 .check {
   color: #fe775a;
+  margin-right: 7px;
 }
 .img-poster {
   width: 41%;
@@ -169,6 +170,18 @@ main .crm .right {
   width: 65%;
   margin-left: 10px;
 }
+main .crm .right .col {
+  width: 50%;
+
+}
+main .crm .right .left {
+  padding-top: 30px;
+}
+main .crm .list-decoration li {
+  display: block;
+  font-size: 14px;
+  color: #33475b;
+}
 /* Fine Crm */
 /* Inizio Services */
 main .services .col {
@@ -188,6 +201,7 @@ main .services  .middle {
 main .services .col hr {
   margin: 20px 0;
 }
+
 main .services .col .list-decoration li{
   display: block;
 }
@@ -197,6 +211,8 @@ main .services .middle .list-decoration ,
 main .services .right .list-decoration {
   margin-bottom: 50px;
   text-align: left;
+  font-size: 14px;
+  color: #33475b;
 }
 /* Fine Services */
 
@@ -283,7 +299,9 @@ main .partnership .figure img {
 /* FOOTER */
 footer {
   background-color: #37495A;
+  height: 900px;
 }
+/* Inizio Footer-Nav */
 footer .footer-nav {
   padding: 40px 0;
 }
@@ -291,17 +309,21 @@ footer .footer-nav .col {
   width: 25%;
   padding: 40px 0;
 }
-footer .footer-nav .col .bianco {
+/* footer .footer-nav .col */
+ .bianco {
   color: white;
   font-size: 12px;
   text-decoration: none;
+
 }
 footer .footer-nav .col li {
   margin-bottom: 10px;
 
 }
-footer .footer-nav .nav ul {
+/* footer .footer-nav .nav ul */
+.col {
   list-style: none;
+  position: relative;
 }
 .button-white {
   font-size: 12px;
@@ -311,12 +333,25 @@ footer .footer-nav .nav ul {
   padding: 10px 10px;
   color: #37495A;
   text-decoration: none;
-  margin
+  position: absolute;
+  margin-top: 4px;
 }
-#social {
+.social {
   display: inline-block;
   padding: 15px 0;
+  list-style: none;
+  margin-right: 20px;
+  padding-top: 56px;
 }
+/* Fine Footer-Nav */
 /* Inizio Footer-Language */
+footer .footer-language li {
+  display: inline-block;
+
+}
+hr {
+mar
+}
 
 /* Fine Footer-Language */
+/* FINE FOOTER */
