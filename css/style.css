@@ -13,14 +13,6 @@ span {
   display: block;
   margin-top: 40px;
 }
-li {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 12px;
-  color: #33475b;
-  text-decoration: none;
-  list-style: none;
-}
 .container {
   margin:auto;
   width: 1080px;
@@ -61,12 +53,21 @@ li {
 .img-poster {
   width: 41%;
 }
-/* HEADER */
 
+
+/* HEADER */
 /* Nav Upper */
 header nav .upper {
   background-color: #f4f9fd;
   border-bottom: 2px solid lightgray;
+}
+header nav .col ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #33475b;
+  text-decoration: none;
+  list-style: none;
 }
 header nav .col ul li a {
   font-size: 12px;
@@ -86,7 +87,6 @@ header nav .left .language {
 header nav .right {
   text-align: right;
 }
-
 header nav .right .search {
   color: #2ab2c7;
 }
@@ -108,7 +108,6 @@ header nav .right .button-nav {
 /*  Nav Downer */
 header nav .downer {
   background-color: #ffffff;
-
 }
 /*  Fine Nav Downer */
 /* Jumbotron */
@@ -126,7 +125,6 @@ header .teaser {
 header .teaser .title  {
   font-size: 41px;
 }
-
 /* Fine Jumbotron */
 /* FINE HEADER */
 
@@ -134,7 +132,6 @@ header .teaser .title  {
 main .poster {
   background-color: #f4f9fd;
   padding-bottom: 40px;
-
 }
 /* Inizio Slogan */
 main .slogan {
@@ -164,7 +161,6 @@ main .left {
   width: 30%;
 }
 main .crm .left .img-poster {
-
   display: block;
   margin-bottom: 48px;
 }
@@ -213,7 +209,6 @@ main .container .intestation {
   color: white;
   text-align: center;
   padding-bottom: 60px;
-
 }
 main .grow .container .intestation h2 {
   font-size: 25px;
@@ -288,17 +283,40 @@ main .partnership .figure img {
 /* FOOTER */
 footer {
   background-color: #37495A;
-  height: 600px;
-
 }
-
-/* footer .footer-nav .nav {
-  width: 25%; */
-
+footer .footer-nav {
+  padding: 40px 0;
 }
-footer .footer-nav .nav .white {
+footer .footer-nav .col {
+  width: 25%;
+  padding: 40px 0;
+}
+footer .footer-nav .col .bianco {
   color: white;
   font-size: 12px;
   text-decoration: none;
+}
+footer .footer-nav .col li {
+  margin-bottom: 10px;
+
+}
+footer .footer-nav .nav ul {
   list-style: none;
 }
+.button-white {
+  font-size: 12px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: #37495A;
+  text-decoration: none;
+  margin
+}
+#social {
+  display: inline-block;
+  padding: 15px 0;
+}
+/* Inizio Footer-Language */
+
+/* Fine Footer-Language */
