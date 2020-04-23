@@ -55,7 +55,6 @@ span {
   width: 41%;
 }
 
-
 /* HEADER */
 /* Nav Upper */
 header nav .upper {
@@ -105,7 +104,6 @@ header nav .right .button-nav {
   padding: 10px 10px;
 }
 /*  Fine Nav Upper */
-
 /*  Nav Downer */
 header nav .downer {
   background-color: #ffffff;
@@ -149,7 +147,6 @@ main .slogan p {
   padding: 0px 188px;
 }
 /* Fine Slogan */
-
 /* Inizio Crm */
 /* Inizio Col Left */
 main .crm {
@@ -172,14 +169,13 @@ main .crm .right {
 }
 main .crm .right .col {
   width: 50%;
-
 }
 main .crm .right .left {
   padding-top: 30px;
 }
 main .crm .list-decoration li {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   color: #33475b;
 }
 /* Fine Crm */
@@ -201,25 +197,21 @@ main .services  .middle {
 main .services .col hr {
   margin: 20px 0;
 }
-
 main .services .col .list-decoration li{
   display: block;
 }
-
 main .services .left .list-decoration ,
 main .services .middle .list-decoration ,
 main .services .right .list-decoration {
   margin-bottom: 50px;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   color: #33475b;
 }
 /* Fine Services */
-
 /* Inizio Grow */
 main .grow {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
-
 }
 main .container .intestation {
   color: white;
@@ -238,15 +230,18 @@ main .grow .container p {
 main .grow .col {
   width: 25%;
 }
-
-main .grow .skill .col{
+main .grow .skill .col {
   padding: 40px 0;
   text-align: center;
   border-right: 1px solid white;
 }
 main .grow .skill .upper:last-child ,
 main .grow .skill .downer:last-child {
-  border: 0
+  border: 0;
+}
+.title-skills {
+  font-size: 40px;
+  padding: 20px 0;
 }
 /* Fine Grow */
 /* Inizio Partnership */
@@ -254,16 +249,13 @@ main .grow .skill .downer:last-child {
 main .partnership .upper {
   padding-top: 40px;
 }
-
 main .partnership .goal {
-  padding-top: 20px;
   width: 20%;
   text-align: left;
   margin-left: 51px;
 }
 main .partnership .goal h3 {
-  font-size: 56px;
-  padding-bottom: 10px;
+  font-size: 40px;
 }
 main .partnership .customers {
   width: 56%;
@@ -274,14 +266,13 @@ main .partnership .customers {
 .img-partnership {
   vertical-align: middle;
   width: 24%;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 0 0 10px 10px;
 }
 /* Fine Upper */
 /* Inizio Downer */
 main .partnership .teaser {
   width: 40%;
-  padding-top: 110px;
+  padding-top: 78px;
 }
 main .partnership .figure {
   width: 60%;
@@ -290,7 +281,12 @@ main .partnership .figure {
   text-align: right;
 }
 main .partnership .figure img {
-  width: 350px;
+  width: 314px;
+  margin-right: -85px;
+}
+main .partnership .downer {
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 /* Fine Downer */
 /* Fine Partnership */
@@ -308,18 +304,14 @@ footer .footer-nav .col {
   width: 25%;
   padding: 40px 0;
 }
-/* footer .footer-nav .col */
  .bianco {
   color: white;
   font-size: 12px;
   text-decoration: none;
-
 }
 footer .footer-nav .col li {
   margin-bottom: 10px;
-
 }
-
 .col {
   list-style: none;
   position: relative;
@@ -361,8 +353,5 @@ footer .legal .legalnav {
 footer .legal {
   padding:30px 0;
 }
-
-
-
 /* Fine Footer-Language */
 /* FINE FOOTER */
